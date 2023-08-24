@@ -104,7 +104,7 @@ html{
 
 #home::before {
     content: "";
-    background: url('/image/food\ order.jpg') no-repeat center/cover;
+    background: url('image/food\ order.jpg') no-repeat center/cover;
     position: absolute;
     top: 0px;
     height: 75%;
