@@ -266,6 +266,13 @@ html{
     color:grey;
 }
 
+#btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 footer{
     background: black;
     color: white;
@@ -305,12 +312,7 @@ footer{
 
     transition: all 1s ease-in-out;
 }
-#btn2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 
 .center {
     text-align: center;
