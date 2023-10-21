@@ -127,6 +127,10 @@ html{
 
 /* Services Section */
 
+#services-container{
+    padding-top: 68px;
+}
+
 #services {
     margin: 34px;
     display: flex;
@@ -171,6 +175,7 @@ html{
 /* Client Section */
 #client-section{
  height: 407px;
+ padding-top: 74px;   
 }
 
 #client-section::before{
@@ -211,6 +216,8 @@ html{
 
 #contact{
     position: relative;
+    padding-top: 75px;
+}
 }
 #contact::before{
     content: "";
