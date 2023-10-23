@@ -114,7 +114,7 @@ html{
 }
 
 #home h1 {
-    color:greenyellow;
+    color:red;
     font-family: math;
     text-align: center;
 }
@@ -122,19 +122,18 @@ html{
 #home p {
     color: white;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 /* Services Section */
 
 #services-container{
-    padding-top: 68px;
+    padding-top: 120px;
 }
 
 #services {
     margin: 34px;
     display: flex;
-
 }
 
 #services .box {
@@ -143,7 +142,7 @@ html{
     padding: 34px;
     border-radius: 30px;
     background-color:whitesmoke;
-
+    box-shadow: 10px 19px 20px -3px orange;
 }
 
 #services .box:hover {
@@ -152,12 +151,15 @@ html{
 
 /* bich me lane ke liye bahut useful hai bhai */
 #services .box img {
-    height: 100px;
+    box-shadow: -2px 28px 25px lightcoral;
+    width: 97%;
+    height: 51%;
     display: block;
     margin: auto;
     cursor: pointer;
+    
 }
-
+/* 
 #services .box img:hover {
   height: 150px;
   width: 150px;
@@ -165,7 +167,7 @@ html{
   border-radius: 20px;
 
   transition: all 1s ease-in;
-}
+} */
 
 #services .box p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -174,8 +176,8 @@ html{
 
 /* Client Section */
 #client-section{
+ padding-top: 75px;
  height: 407px;
- padding-top: 74px;   
 }
 
 #client-section::before{
@@ -201,11 +203,12 @@ html{
 #clients img{
     height: 144px;
     width: auto;
+    box-shadow: 4px 8px 11px brown;
 }
 
 
 #client-section h1{
-    color: white;
+    color:rgb(228, 38, 168);
     font-weight: bolder;
     font-style: normal;
     font-size: 75px;
@@ -218,7 +221,6 @@ html{
     position: relative;
     padding-top: 75px;
 }
-}
 #contact::before{
     content: "";
     position: absolute;
@@ -228,6 +230,10 @@ html{
     opacity: 0.7;
     background: url('image/contact.jpg') no-repeat center center/cover ;
 
+}
+
+#contact >h1{
+    color: blue;
 }
 
 #contact-box{
@@ -252,8 +258,6 @@ html{
 #contact-box label{
     font-size: 2.3rem;
 }
-
-#contact h1{}
 
 #button{
     border: 4px solid blue;
@@ -291,7 +295,10 @@ footer{
 .h-primary {
     font-size: 3.8rem;
     padding: 12px;
-
+    background-color: rgb(244, 245, 247);
+    color:red;
+    border-radius: 20px;
+    text-shadow: 49px -4px 18px darkred;
 }
 
 .h-secondary {
@@ -311,15 +318,13 @@ footer{
 }
 
 .btn:hover {
-    background-color: grey;
+    background-color:rgb(242, 155, 155);
     color: azure;
     font-weight: bolder;
     margin: 50px;
     padding: 20px;
-
     transition: all 1s ease-in-out;
 }
-
 
 .center {
     text-align: center;
