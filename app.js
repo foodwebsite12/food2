@@ -1,6 +1,6 @@
 let monu=document.querySelector("#home h1")
 
-let sonu=document.querySelector("#home button")
+let sonu=document.querySelector("#home .btn")
 
 
 
